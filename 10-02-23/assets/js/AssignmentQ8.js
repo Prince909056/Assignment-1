@@ -38,8 +38,6 @@ function myfunction(){
 }
 
 function onDelete() {
-    
         var selectdelete = document.querySelector("a.dlt");
         selectdelete = selectdelete.parentElement.parentElement.remove(0);
-    
 }
