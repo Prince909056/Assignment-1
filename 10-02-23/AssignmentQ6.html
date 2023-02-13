@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 6</title>
-</head>
-<body>
-    <div class="hidden" id="custom_prompt">
-        <div id="prompttext">
-            prompt text
-        </div>
-        <input id="promptinput">
-        <button id="promptbutton">
-            OK
-        </button>
+  </head>
+  <body>
+    <div id="dialogcont">
+      <div class="dig-header">
+        <span id="digHeader">Custom Prompt</span>
+      </div>
+      <div class="dig-body">
+        <div id="digMessage"></div>
+        <input id="dialogInput" type="text" class="dig-input-el" />
+      </div>
+      <div class="dig-footer">
+        <a onclick="Ok"> </a>
+        <a onclick="cancel"> </a>
+      </div>
     </div>
-</body>
-<script src="./assets/js/AssignmentQ6.js"></script>
+  </body>
+  <script src="./assets/js/AssignmentQ6.js"></script>
 </html>
